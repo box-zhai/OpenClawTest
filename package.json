@@ -1,0 +1,17 @@
+{
+  "name": "openclawtest",
+  "version": "1.0.0",
+  "description": "OpenClaw test repository with CSV to JSON converter",
+  "main": "src/csvToJson.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/csvToJson.js"
+  },
+  "keywords": ["openclaw", "csv", "json", "converter"],
+  "author": "Box Zhai",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
